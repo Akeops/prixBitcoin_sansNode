@@ -1,0 +1,20 @@
+h1 {
+    color: #272343;
+  }
+  
+  #price {
+    font-size: 4em;
+  }
+
+  /* Ajout de code */
+
+.col-md-8 {
+  border-width: 1px; /* épaisseur du bord */
+  border-style: solid; /* style du bord (ex : solid, dashed, dotted, double, etc.) */
+  border-color: #000000; /* couleur du bord */
+  width: 20%;
+  display: inline-block;
+  justify-content: center;
+  /*align-items: center;*/
+  text-align: center;
+}
