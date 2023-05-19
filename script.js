@@ -3,7 +3,7 @@ const divElements = document.querySelectorAll('.col-md-8');
 
 divElements.forEach(divElement => {
   divElement.addEventListener('mouseover', function() {
-    this.style.backgroundColor = "#65431E";
+    this.style.backgroundColor = "#F3EEE7";
     this.style.color = "#2F2F2F";
     //titleElement.style.color = "white";
     
@@ -77,5 +77,5 @@ function recupererPrix() {
   }
   console.log('Prix actualisé');
 }
-
+recupererPrix();
 setInterval(recupererPrix, 1000);
